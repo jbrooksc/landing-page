@@ -1,0 +1,67 @@
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link-text{
+    display: flex;
+}
+
+.hero-text-chunk {
+    display: flex;
+    flex: 1;
+    align-items: space-between;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 16px;
+    margin: 16px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.hero-secondary-text, .header-link-text {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+button.sign-up {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 29px;
+    flex: 1
+}
+
+ul {
+    color:#F9FAF8;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+}
