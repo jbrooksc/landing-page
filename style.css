@@ -43,7 +43,12 @@
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
-    gap: 8px
+    gap: 8px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .hero-secondary-text{
@@ -58,8 +63,14 @@ button.sign-up {
     color: white;
     padding: 8px 16px;
     border-radius: 8px;
-    width: 100px
+    width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
 }
+
+button:hover {
+    color: white;
+  }
 
 .second-section {
     display: flex;
@@ -130,5 +141,3 @@ img:not(.hero-image) {
     margin-top: 8px;
     width: 100px
 }
-
-test
