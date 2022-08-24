@@ -99,16 +99,19 @@ ul {
 .column-two{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: space-evenly;
     padding: 36px;
     text-align: center;
+    flex-shrink: 0
+
 }
 
 img:not(.hero-image) {
     height: 200px;
     width: 200px;
     flex: 2;
-    border: 10px;
+    border: 10px solid;
     border-color: cornflowerblue;
     border-radius: 10px;
 }
@@ -125,6 +128,7 @@ img:not(.hero-image) {
     display: flex;
     justify-content: space-evenly;
     gap: 52px;
+
 }
 
 .column-two-image {
@@ -134,6 +138,7 @@ img:not(.hero-image) {
     max-width: 50px;
     text-align: center;
     padding-bottom: 8px;
+
 }
 
 .caption {
