@@ -180,7 +180,7 @@ img:not(.hero-image) {
     display: flex;
     justify-content: center;
     padding: 70px;
-
+    height: 300px
 }
 
 .modal {
@@ -228,4 +228,17 @@ button.sign-up-two {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     cursor: pointer;
     font-weight: 900;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0
 }
