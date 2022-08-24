@@ -173,3 +173,36 @@ img:not(.hero-image) {
     font-weight: bold;
     font-style: italic;
 }
+
+/* FOURTH SECTION */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+
+}
+
+.modal {
+    background-color: #3882F6;
+    width: 780px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    padding: 16px
+}
+
+.container {
+    color: white;
+}
+
+.call-to-action-title {
+    font-weight: 900;
+    padding-bottom: 9px
+}
+
+.call-to-action-title, .call-to-action-subtitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
