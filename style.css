@@ -146,3 +146,30 @@ img:not(.hero-image) {
     margin-top: 8px;
     width: 100px
 }
+
+/* THIRD SECTION */
+
+.quotation {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotation-text {
+    font-size: 36px;
+    font-style: italic;
+    width: 900px;
+    padding: 40px
+}
+
+.quotation-attribution {
+    display: flex;
+    align-self: flex-end;
+    padding-bottom: 40px;
+    padding-right: 190px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
