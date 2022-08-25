@@ -116,6 +116,10 @@ img:not(.hero-image) {
     border-radius: 10px;
 }
 
+img:hover:not(.hero-image){
+    transform: scale(1.2);
+}
+
 .title-for-section-two{
     font-size: 32px;
     color: #1F2937;
