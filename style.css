@@ -179,8 +179,9 @@ img:not(.hero-image) {
 .call-to-action {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 70px;
-    height: 300px
+    height: 200px
 }
 
 .modal {
